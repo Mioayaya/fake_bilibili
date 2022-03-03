@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/home_tool_bar"
+            android:background="@color/pink"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/home_head_circle"
+                android:paddingRight="15dp"
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/test1" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/home_search_card"
+                android:elevation="0dp"
+                android:layout_width="185dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="30dp">
+                <RelativeLayout
+                    android:background="@color/pink_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_icon_search"
+                        android:layout_centerVertical="true">
+                    </ImageView>
+                    <!--
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp">
+
+                    </EditText>
+-->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:elevation="3dp"
+        android:id="@+id/anim_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/anim_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+        </androidx.viewpager.widget.ViewPager>
+
+
+
+
+</LinearLayout>

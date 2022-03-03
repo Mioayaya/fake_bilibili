@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/icon_home"
+        android:title="首页">
+
+    </item>
+
+    <item android:id="@+id/nav_history"
+        android:icon="@drawable/icon_history"
+        android:title="历史">
+
+    </item>
+
+    <item android:id="@+id/nav_user"
+        android:icon="@drawable/icon_person"
+        android:title="我的">
+
+    </item>
+
+    <item android:id="@+id/nav_login"
+        android:icon="@drawable/icon_login"
+        android:title="登录">
+
+    </item>
+
+
+
+
+</menu>

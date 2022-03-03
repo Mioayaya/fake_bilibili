@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    android:elevation="5dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- 标题-->
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/anim_image"
+            android:layout_width="210dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="-20dp"
+            android:src="@drawable/test1"
+            app:riv_corner_radius="3dp" />
+
+        <TextView
+            android:id="@+id/anim_title"
+            android:lines="1"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="世界顶尖的暗杀者，转.." />
+        <!-- 描述-->
+        <TextView
+            android:id="@+id/anim_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/moccasin"
+            android:text="430万追番"
+            android:textColor="@color/orange"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        layout="@layout/simple_player_view_player"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+    <master.flame.danmaku.ui.widget.DanmakuView
+        android:id="@+id/DanMaku"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+<androidx.cardview.widget.CardView
+    android:id="@+id/danmu_sent_card"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_below="@id/DanMaku" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pink"
+        android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        app:cardCornerRadius="15dp"
+        android:layout_centerVertical="true"
+        >
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:background="@color/white" />
+
+</androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="发送" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:id="@+id/comment_qp"
+        android:layout_width="match_parent"
+        android:background="#FFFEEE"
+        android:layout_height="50dp"
+        android:layout_below="@+id/danmu_sent_card"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textSize="20dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/gold"
+                android:text="评论"/>
+            <TextView
+                android:id="@+id/gbdm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="100dp"
+                android:layout_marginTop="20dp"
+                android:text="关闭弹幕"/>
+            <Button
+                android:id="@+id/qp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="全屏"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"/>
+    </LinearLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/video_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nonono"
+        android:layout_below="@+id/comment_qp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewTrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/nonono"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/DanMaku" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/pink"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_centerVertical="true"
+                    >
+
+                    <EditText
+                        android:id="@+id/user_comment"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:singleLine="true" />
+
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/Comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:text="发送" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

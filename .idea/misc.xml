@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24074074074074073" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable-v24/rotate_layout_bg.xml" value="0.2824074074074074" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable-v24/text_bg.xml" value="0.2824074074074074" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable-v24/text_underline.xml" value="0.13697916666666668" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable/ic_icon_add.xml" value="0.2856410256410256" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable/ic_icon_history.xml" value="0.2856410256410256" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable/ic_icon_load.xml" value="0.20277777777777778" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable/ic_icon_message.xml" value="0.24074074074074073" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable/ic_icon_search.xml" value="0.20277777777777778" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable/ic_icon_us.xml" value="0.2856410256410256" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24074074074074073" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_add.xml" value="0.22010869565217392" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_ce_video.xml" value="0.18931159420289856" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_detail.xml" value="0.19655797101449277" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_fans.xml" value="0.1793478260869565" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_follow.xml" value="0.1793478260869565" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_headimage.xml" value="0.1983695652173913" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_load.xml" value="0.1766304347826087" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_main.xml" value="0.13323201621073963" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_ohther_users.xml" value="0.18432971014492755" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_revise.xml" value="0.13323201621073963" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_search.xml" value="0.2" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_showsearch.xml" value="0.21195652173913043" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_sign.xml" value="0.17119565217391305" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_test.xml" value="0.21195652173913043" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_us.xml" value="0.22418478260869565" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_user.xml" value="0.18659420289855072" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_video.xml" value="0.13323201621073963" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_video_select.xml" value="0.13323201621073963" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/activity_web.xml" value="0.22010869565217392" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/bilibili_item_follow_fans.xml" value="0.1793478260869565" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/bilibili_item_headimage.xml" value="0.1983695652173913" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/bilibili_item_history.xml" value="0.20742753623188406" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/bilibili_item_one.xml" value="0.21195652173913043" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/bilibili_item_video_image.xml" value="0.264" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/fragment_animation.xml" value="0.19655797101449277" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/fragment_history.xml" value="0.20742753623188406" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/fragment_home.xml" value="0.1897644927536232" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/fragment_load.xml" value="0.1766304347826087" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/fragment_login.xml" value="0.1766304347826087" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/fragment_sign.xml" value="0.1766304347826087" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/fragment_test.xml" value="0.19655797101449277" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/fragment_user.xml" value="0.18659420289855072" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/input_layout.xml" value="0.1766304347826087" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/layout_progress.xml" value="0.1766304347826087" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/text_bg.xml" value="0.1766304347826087" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/title_layout.xml" value="0.1766304347826087" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/title_layout1.xml" value="0.17119565217391305" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/user_elem1_layout.xml" value="0.18931159420289856" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/user_elem_layout.xml" value="0.21603260869565216" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/layout/video_num_layout.xml" value="0.18885869565217392" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25833333333333336" />
+        <entry key="..\:/Code/Android/AndroidCode/bilibili4/app/src/main/res/menu/home_tool_bar_menu.xml" value="0.27395833333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
