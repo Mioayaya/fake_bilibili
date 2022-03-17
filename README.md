@@ -1,10 +1,5 @@
 # bilibiliFake App
 
-## ip地址
-手机开wlan： 192.168.43.44
-
-电脑开热点ip：192.168.137.1
-
 ## 项目描述:
 android开发使用kotlin语言，完成一个仿bilibili的动漫视频播放软件
 ## 开发思路：
